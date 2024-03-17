@@ -20,4 +20,5 @@ int main()
     {
         cout << "The triangle is not isosceles" << endl;
     }
+    return 0;
 }
