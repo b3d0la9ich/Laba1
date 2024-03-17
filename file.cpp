@@ -1,10 +1,14 @@
 #include <iostream>
 #include <math.h>
+
 using namespace std;
 
 int main() 
 {
-    int a = 5, b = 3;
+    int a, b;
+    cout << "Write your sides:" << endl;
+    cin >> a >> b;
+    cout << "Calculate the perimeter, area, diagonal length..." << endl;
     cout << 2 * (a + b) << endl;
     cout << (a * b) << endl;
     cout << sqrt(a*a + b*b) << endl;
