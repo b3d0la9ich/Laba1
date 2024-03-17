@@ -4,7 +4,10 @@ using namespace std;
 
 int main()
 {
-    int a = 5, b = 3, c = 2;
+    int a, b, c;
+    cout << "Write your sides:" << endl;
+    cin >> a >> b >> c;
+    cout << "Calculating the perimeter, the area according to the Heron formula, checking for isosceles" << endl;
     int per = a + b + c;
     cout << per << endl;
     int polyper = per / 2;
