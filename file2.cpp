@@ -7,6 +7,9 @@ int main()
     double a, b, c;
     cout << "Write your sides:" << endl;
     cin >> a >> b >> c;
+    if ( a+b>=c || a+c >= b || b+c >= a || a<0 || b<0 || c<0){
+        cout << ""
+    }
     cout << "Calculating the perimeter, the area according to the Heron formula, checking for isosceles" << endl;
     double per = a + b + c;
     cout << per << endl;
