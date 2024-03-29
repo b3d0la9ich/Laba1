@@ -11,6 +11,7 @@ int main()
     if (a <= 0 || b <= 0){
         cout << "Wrong sides!" << endl;
     } 
+
     else{
         cout << "Calculate the perimeter, area, diagonal length..." << endl;
         cout << 2 * (a + b) << endl;
