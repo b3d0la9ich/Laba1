@@ -16,12 +16,10 @@ int main() {
         double polyper = per / 2.0;
         double area = sqrt(polyper * (polyper - a) * (polyper - b) * (polyper - c));
         cout << area << endl;
-        if (a == b || a == c || b == c)
-        {
+        if (a == b || a == c || b == c) {
             cout << "The triangle is isosceles" << endl;
         }
-        else
-        {
+        else {
             cout << "The triangle is not isosceles" << endl;
         }
     }
