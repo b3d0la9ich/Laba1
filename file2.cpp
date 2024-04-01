@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     double a, b, c;
-    cout << "Write your sides:" << endl;
+    cout << "Write your sides:" << endl;                          //Error (sides <0, summ incorrect)
     cin >> a >> b >> c;
     if ( a+b<=c || a+c <= b || b+c <= a || a<0 || b<0 || c<0) {
         cout << "Wrong sides!" << endl;
@@ -25,4 +25,3 @@ int main() {
     }
     return 0;
 }
-//Изменение крутое
